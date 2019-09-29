@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telaDeCadastroTime"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_do_time"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/nome_do_time"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/fundado_no_ano_de"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="95dp"
+        />
+
+    <EditText
+        android:id="@+id/ano_de_fundacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/salvar_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
+        android:background="@color/buttonCollor"
+        android:textColor="@color/textCollor"
+        android:textSize="20sp"
+        android:layout_marginTop="85dp"
+        />
+
+
+
+</LinearLayout>
