@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".telaDeCadastroTime"
     android:orientation="vertical"
-    android:layout_margin="15dp"
+    android:background="@drawable/BackGroundAndroid"
+    android:padding="15dp"
     >
     <TextView
         android:layout_width="match_parent"
