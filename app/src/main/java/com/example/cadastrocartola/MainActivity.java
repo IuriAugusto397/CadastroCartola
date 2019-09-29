@@ -1,5 +1,6 @@
 package com.example.cadastrocartola;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -34,7 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
     if(view.getId() == R.id.cadastrar_time ){
-
+        Intent intent = new Intent(this , telaDeCadastroTime.class);
+        startActivity(intent);
     }
     }
 }
